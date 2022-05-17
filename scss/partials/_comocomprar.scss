@@ -1,0 +1,26 @@
+@import"../variables/variables";
+
+/* Pagina como comprar */
+
+.comocomprar{
+    margin: 40px;
+    padding: 30px;
+    .comocomprara{
+            margin: 40px;
+            padding: 40px;
+            justify-content: $justificado1;}
+            .comocomprarc{
+                font-family:$tipo-de-letra;
+                text-align:center;
+                background-color: $color1;
+                color: $color3;
+            }
+            .comocomprard{
+                font-family: $tipo-de-letra;
+                font-size: $size2;
+                text-align: center;
+                background-color: $color3;
+                color: $color1;
+            }
+    }
+

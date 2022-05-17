@@ -1,0 +1,11 @@
+@import"../variables/variables";
+
+@mixin encabezado {
+    color: $color1;
+    font-size: $size1;
+    font-family: $tipo-de-letra;
+    text-align: $justificado1;
+    background-color: $color2;
+    margin: 5px;
+}
+

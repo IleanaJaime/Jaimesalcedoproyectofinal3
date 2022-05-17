@@ -1,0 +1,73 @@
+@import"../variables/variables";
+
+/*  Pagina de contacto */
+
+.formulariodecontacto{
+    margin: 20px;
+    padding: 20px;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.formulario1{
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #bdde92;
+    background-color: olivedrab;
+    margin: 8px;
+    padding: 8px;
+}
+.nombre{
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #bdde92;
+    background-color: olivedrab;
+}
+
+.apellido{
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #bdde92;
+    background-color: olivedrab;
+}
+
+.algomas{
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #bdde92;
+    background-color: olivedrab;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+.opinion{
+    background-color: #bdde92;
+    margin: 10px;
+    padding: 10px;
+}
+
+.terminos{
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #bdde92;
+    background-color: olivedrab;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.limpiar{
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #bdde92;
+    background-color: olivedrab;
+}
+
+.enviar{
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #bdde92;
+    background-color: olivedrab;
+}

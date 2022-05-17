@@ -1,0 +1,36 @@
+@import"../variables/variables";
+
+/* pagina quienes somos */
+
+.queinessomos-a{
+    font-family: $tipo-de-letra;
+    text-align: center;
+    background-color: $color1;
+    color: $color3;}
+    .quienessomos-b{
+        font-family: $tipo-de-letra;
+        text-align: center;
+        background-color: $color1;
+        color: $color3;
+        margin: 25px;
+        padding: 25px;
+        font-size: 30px;
+    }
+        .quienessomos-c{
+            font-family: $tipo-de-letra;
+            text-align: center;
+            background-color: $color2;
+            color: $color3;
+            margin: 40px;
+            padding: 40px;
+            font-size: 30px;
+        }
+            .quienessomos-d{
+                font-family: $tipo-de-letra;
+                text-align: center;
+                background-color: $color1;
+                color:$color3;
+                margin: 15px;
+                padding: 15px;
+                font-size: 20px;
+            }

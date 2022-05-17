@@ -1,0 +1,728 @@
+* {
+  margin: 0%;
+  padding: 0%; }
+
+/* aplicando grid */
+.grid-conteiner {
+  border: 1px;
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(3, 155px);
+  gap: 8px;
+  grid-template-areas: "noticia-1 noticia-2 noticia-5 noticia-3"
+ "noticia-1 noticia-4 noticia-5 noticia-3"
+ "noticia-1 noticia-4 noticia-6 noticia-6"; }
+
+.noticia-1 {
+  grid-area: noticia-1;
+  background-image: url(../img/cubrecama.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: contain; }
+
+.noticia-2 {
+  grid-area: noticia-2;
+  font-size: large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  text-decoration: solid;
+  background-color: beige;
+  height: 90px; }
+
+.noticia-3 {
+  grid-area: noticia-3;
+  background-image: url(../img/almohadon.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: contain; }
+
+.noticia-4 {
+  grid-area: noticia-4;
+  background-image: url(../img/cubreedredon.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.noticia-5 {
+  grid-area: noticia-5;
+  background-image: url(../img/cubreedredon.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.noticia-6 {
+  grid-area: noticia-6;
+  font-size: large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  text-decoration: solid;
+  background-color: beige;
+  height: 50px;
+  animation-name: animacion;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-delay: 3s; }
+
+@keyframes animacion {
+  0% {
+    color: olive;
+    font-size: 20px; }
+  50% {
+    color: chartreuse;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+  75% {
+    color: olive;
+    font-size: 20px; }
+  100% {
+    color: chartreuse;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; } }
+
+/* Pagina como comprar */
+.comocomprar {
+  margin: 40px;
+  padding: 30px; }
+  .comocomprar .comocomprara {
+    margin: 40px;
+    padding: 40px;
+    justify-content: center; }
+  .comocomprar .comocomprarc {
+    font-family: Georgia;
+    text-align: center;
+    background-color: #bdde92;
+    color: olivedrab; }
+  .comocomprar .comocomprard {
+    font-family: Georgia;
+    font-size: large;
+    text-align: center;
+    background-color: olivedrab;
+    color: #bdde92; }
+
+/*  Pagina de contacto */
+.formulariodecontacto {
+  margin: 20px;
+  padding: 20px;
+  font-size: medium;
+  font-family: Georgia, 'Times New Roman', Times, serif; }
+
+.formulario1 {
+  font-size: large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #bdde92;
+  background-color: olivedrab;
+  margin: 8px;
+  padding: 8px; }
+
+.nombre {
+  font-size: medium;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #bdde92;
+  background-color: olivedrab; }
+
+.apellido {
+  font-size: medium;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #bdde92;
+  background-color: olivedrab; }
+
+.algomas {
+  font-size: large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #bdde92;
+  background-color: olivedrab;
+  padding: 5px;
+  margin: 5px;
+  text-align: center; }
+
+.opinion {
+  background-color: #bdde92;
+  margin: 10px;
+  padding: 10px; }
+
+.terminos {
+  font-size: medium;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #bdde92;
+  background-color: olivedrab;
+  text-align: center;
+  margin: 10px;
+  padding: 10px; }
+
+.limpiar {
+  font-size: medium;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #bdde92;
+  background-color: olivedrab; }
+
+.enviar {
+  font-size: medium;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #bdde92;
+  background-color: olivedrab; }
+
+/* Pagina productos */
+.productos {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  background-color: #bdde92;
+  color: olivedrab;
+  margin: 2px;
+  padding: 2px; }
+
+.scroll {
+  overflow-y: scroll;
+  height: 400px; }
+
+.scroll::-webkit-scrollbar {
+  -webkit-appearance: none; }
+
+.scroll::-webkit-scrollbar:vertical {
+  width: 10px; }
+
+.scroll::-webkit-scrollbar-button:increment, .scroll::-webkit-scrollbar-button {
+  display: none; }
+
+.scroll::-webkit-scrollbar:horizontal {
+  height: 10px; }
+
+.scroll::-webkit-scrollbar-thumb {
+  background-color: #797979;
+  border-radius: 20px;
+  border: 2px solid #f1f2f3; }
+
+.scroll::-webkit-scrollbar-track {
+  border-radius: 10px; }
+
+/* pagina quienes somos */
+.queinessomos-a {
+  font-family: Georgia;
+  text-align: center;
+  background-color: #bdde92;
+  color: olivedrab; }
+
+.quienessomos-b {
+  font-family: Georgia;
+  text-align: center;
+  background-color: #bdde92;
+  color: olivedrab;
+  margin: 25px;
+  padding: 25px;
+  font-size: 30px; }
+
+.quienessomos-c {
+  font-family: Georgia;
+  text-align: center;
+  background-color: beige;
+  color: olivedrab;
+  margin: 40px;
+  padding: 40px;
+  font-size: 30px; }
+
+.quienessomos-d {
+  font-family: Georgia;
+  text-align: center;
+  background-color: #bdde92;
+  color: olivedrab;
+  margin: 15px;
+  padding: 15px;
+  font-size: 20px; }
+
+/* todas las paginas */
+header {
+  position: fixed;
+  width: 100%; }
+
+body {
+  margin: 0%;
+  padding: 0%;
+  background-image: url(../img/fondobeige);
+  display: flex; }
+
+.encabezado {
+  color: #bdde92;
+  font-size: medium;
+  font-family: Georgia;
+  text-align: center;
+  background-color: beige;
+  margin: 5px; }
+
+.section {
+  margin-top: 1px; }
+  .section p {
+    font-family: Georgia;
+    font-size: 20px;
+    background-color: #bdde92;
+    margin: 5px;
+    text-align: center; }
+
+.menu {
+  text-align: center;
+  font-family: Verdana;
+  color: #bdde92; }
+
+.fondo {
+  background-color: olive; }
+
+/* Pie de pagina  */
+footer {
+  display: flex;
+  align-self: flex-end;
+  min-height: auto; }
+
+.pie {
+  background-color: olivedrab;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: space-between; }
+
+.pie-div1 {
+  color: black;
+  font-family: Verdana;
+  padding-left: 5px;
+  display: flex;
+  align-self: center;
+  font-size: 20px; }
+
+.pie-div2 {
+  display: flex;
+  flex-direction: row; }
+
+.pie-div2-a {
+  color: black;
+  font-family: Verdana;
+  margin: 5px; }
+
+/* Pagina como comprar */
+.comocomprar {
+  margin: 40px;
+  padding: 30px; }
+  .comocomprar .comocomprara {
+    margin: 40px;
+    padding: 40px;
+    justify-content: center; }
+  .comocomprar .comocomprarc {
+    font-family: Georgia;
+    text-align: center;
+    background-color: #bdde92;
+    color: olivedrab; }
+  .comocomprar .comocomprard {
+    font-family: Georgia;
+    font-size: large;
+    text-align: center;
+    background-color: olivedrab;
+    color: #bdde92; }
+
+/*  Pagina de contacto */
+.formulariodecontacto {
+  margin: 20px;
+  padding: 20px;
+  font-size: medium;
+  font-family: Georgia, 'Times New Roman', Times, serif; }
+
+.formulario1 {
+  font-size: large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #bdde92;
+  background-color: olivedrab;
+  margin: 8px;
+  padding: 8px; }
+
+.nombre {
+  font-size: medium;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #bdde92;
+  background-color: olivedrab; }
+
+.apellido {
+  font-size: medium;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #bdde92;
+  background-color: olivedrab; }
+
+.algomas {
+  font-size: large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #bdde92;
+  background-color: olivedrab;
+  padding: 5px;
+  margin: 5px;
+  text-align: center; }
+
+.opinion {
+  background-color: #bdde92;
+  margin: 10px;
+  padding: 10px; }
+
+.terminos {
+  font-size: medium;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #bdde92;
+  background-color: olivedrab;
+  text-align: center;
+  margin: 10px;
+  padding: 10px; }
+
+.limpiar {
+  font-size: medium;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #bdde92;
+  background-color: olivedrab; }
+
+.enviar {
+  font-size: medium;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #bdde92;
+  background-color: olivedrab; }
+
+/* aplicando grid */
+.grid-conteiner {
+  border: 1px;
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(3, 155px);
+  gap: 8px;
+  grid-template-areas: "noticia-1 noticia-2 noticia-5 noticia-3"
+ "noticia-1 noticia-4 noticia-5 noticia-3"
+ "noticia-1 noticia-4 noticia-6 noticia-6"; }
+
+.noticia-1 {
+  grid-area: noticia-1;
+  background-image: url(../img/cubrecama.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: contain; }
+
+.noticia-2 {
+  grid-area: noticia-2;
+  font-size: large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  text-decoration: solid;
+  background-color: beige;
+  height: 90px; }
+
+.noticia-3 {
+  grid-area: noticia-3;
+  background-image: url(../img/almohadon.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: contain; }
+
+.noticia-4 {
+  grid-area: noticia-4;
+  background-image: url(../img/cubreedredon.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.noticia-5 {
+  grid-area: noticia-5;
+  background-image: url(../img/cubreedredon.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.noticia-6 {
+  grid-area: noticia-6;
+  font-size: large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  text-decoration: solid;
+  background-color: beige;
+  height: 50px;
+  animation-name: animacion;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-delay: 3s; }
+
+@keyframes animacion {
+  0% {
+    color: olive;
+    font-size: 20px; }
+  50% {
+    color: chartreuse;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+  75% {
+    color: olive;
+    font-size: 20px; }
+  100% {
+    color: chartreuse;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; } }
+
+/* Pagina productos */
+.productos {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  background-color: #bdde92;
+  color: olivedrab;
+  margin: 2px;
+  padding: 2px; }
+
+.scroll {
+  overflow-y: scroll;
+  height: 400px; }
+
+.scroll::-webkit-scrollbar {
+  -webkit-appearance: none; }
+
+.scroll::-webkit-scrollbar:vertical {
+  width: 10px; }
+
+.scroll::-webkit-scrollbar-button:increment, .scroll::-webkit-scrollbar-button {
+  display: none; }
+
+.scroll::-webkit-scrollbar:horizontal {
+  height: 10px; }
+
+.scroll::-webkit-scrollbar-thumb {
+  background-color: #797979;
+  border-radius: 20px;
+  border: 2px solid #f1f2f3; }
+
+.scroll::-webkit-scrollbar-track {
+  border-radius: 10px; }
+
+/* pagina quienes somos */
+.queinessomos-a {
+  font-family: Georgia;
+  text-align: center;
+  background-color: #bdde92;
+  color: olivedrab; }
+
+.quienessomos-b {
+  font-family: Georgia;
+  text-align: center;
+  background-color: #bdde92;
+  color: olivedrab;
+  margin: 25px;
+  padding: 25px;
+  font-size: 30px; }
+
+.quienessomos-c {
+  font-family: Georgia;
+  text-align: center;
+  background-color: beige;
+  color: olivedrab;
+  margin: 40px;
+  padding: 40px;
+  font-size: 30px; }
+
+.quienessomos-d {
+  font-family: Georgia;
+  text-align: center;
+  background-color: #bdde92;
+  color: olivedrab;
+  margin: 15px;
+  padding: 15px;
+  font-size: 20px; }
+  
+/* Vista Mobile  para todas las paginas*/
+
+@media screen and (max-width: 320px){
+    .encabezado{
+        color: #bdde92;
+        font-size: small;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+        background-color: beige;
+    }
+    
+    .section{
+        margin-top: 1px;
+    }
+    
+    .section-p{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: small;
+        background-color: #bdde92;
+        margin: 1px;
+        text-align: center;
+    }
+    
+
+/* para la pagina como comprar */
+    .comocomprar{
+        padding: 2px;
+        margin: 2px;
+    }
+
+    .comocomprarc{
+        font-size: small;
+    }
+
+    .comocomprard{
+        font-size: small;
+    }
+
+    /* para pagina contacto */
+    .formulariodecontacto{
+        margin: 1px;
+        padding: 1px;
+        font-size: small;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    .formulario1{
+        font-size: small;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #bdde92;
+        background-color: olivedrab;
+        margin: 1px;
+        padding: 1px;
+    }
+    .nombre{
+        font-size: small;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #bdde92;
+        background-color: olivedrab;
+    }
+    
+    .apellido{
+        font-size: small;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #bdde92;
+        background-color: olivedrab;
+    }
+    
+    .algomas{
+        font-size: medium;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #bdde92;
+        background-color: olivedrab;
+        padding: 1px;
+        margin: 1px;
+        text-align: left;
+    }
+    
+    .opinion{
+        background-color: #bdde92;
+        margin: 3px;
+        padding: 3px;
+    }
+    
+    .terminos{
+        font-size: small;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #bdde92;
+        background-color: olivedrab;
+    text-align: left;
+    }
+    
+    
+    .limpiar{
+        font-size: small;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #bdde92;
+        background-color: olivedrab;
+    }
+    
+    .enviar{
+        font-size: small;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #bdde92;
+        background-color: olivedrab;
+    }
+
+    .nombre1{
+        margin: 2px;
+        padding: 2px;
+        width: 50px;
+    }
+
+    .apellido1{
+        margin: 2px;
+        padding: 2px;
+        width: 50px;
+    }
+
+    /* para pagina productos */
+    .productos{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+        background-color: #bdde92;
+        color: olivedrab;
+        margin: 1px;
+        padding: 1px;
+        font-size: small;
+    }
+    
+    /* para pagina quienes somos */
+
+    .queinessomos-a{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+        background-color: #bdde92;
+        color: olivedrab;
+        font-size: 25px;
+        margin: 20px;
+        padding: 30px;
+    }
+    
+    .quienessomos-b{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+        background-color: #bdde92;
+        color: olivedrab;
+        margin: 12px;
+        padding: 12px;
+        font-size: 20px;
+    }
+    
+    .quienessomos-c{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+        background-color: beige;
+        color: olivedrab;
+        margin: 10px;
+        padding: 10px;
+        font-size:20px;
+    }
+    
+    .quienessomos-d{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+        background-color: #bdde92;
+        color: olivedrab;
+        margin: 15px;
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    /* para todas las paginas */
+    .pie{
+        background-color: olivedrab;
+        width: 100%;
+        height: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .pie-div1{
+        color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding-left: 5px;
+        display: flex;
+        align-self: center;
+        font-size: 5px;
+    }
+    .pie-div2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: small;
+    }
+    .pie-div2-a{
+        color: black;
+        font-family:Verdana, Geneva, Tahoma, sans-serif ;
+        margin: 0px;
+        font-size: 7px;
+    }
+}

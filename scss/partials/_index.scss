@@ -1,0 +1,94 @@
+@import"../variables/variables";
+
+/* aplicando grid */ 
+.grid-conteiner{
+    border: 1px;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(3, 155px);
+    gap: 8px;
+    grid-template-areas: 
+    "noticia-1 noticia-2 noticia-5 noticia-3"
+    "noticia-1 noticia-4 noticia-5 noticia-3"
+    "noticia-1 noticia-4 noticia-6 noticia-6"
+    ;
+}
+
+.noticia-1{
+    grid-area: noticia-1;
+    background-image: url(../img/cubrecama.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+.noticia-2{
+    grid-area: noticia-2;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    text-decoration: solid;
+    background-color: beige;
+    height: 90px;
+}
+
+.noticia-3{
+    grid-area: noticia-3;
+    background-image: url(../img/almohadon.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+.noticia-4{
+    grid-area: noticia-4;
+    background-image: url(../img/cubreedredon.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.noticia-5{
+    grid-area: noticia-5;
+    background-image: url(../img/cubreedredon.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size:contain;
+        background-repeat: no-repeat;
+}
+
+.noticia-6{
+    grid-area: noticia-6;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    text-decoration: solid;
+    background-color: beige;
+    height: 50px;
+    animation-name: animacion;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+}
+
+@keyframes animacion {
+    0%{
+        color: olive;
+        font-size: 20px;
+    }
+    50%{
+        color: chartreuse;
+        font-size: 30px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    75%{
+        color: olive;
+        font-size: 20px;
+    }
+    100%{
+        color: chartreuse;
+        font-size: 30px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+}
